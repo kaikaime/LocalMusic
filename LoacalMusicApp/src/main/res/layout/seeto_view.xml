@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingRight="20dp"
+    android:visibility="gone"
+    android:paddingLeft="20dp"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_weight="0"
+        android:layout_width="30dp"
+        android:id="@+id/seet_tv_currentTime"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:layout_height="30dp" />
+    <android.support.v7.widget.AppCompatSeekBar
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:thumbTintMode="screen"
+        android:thumb="@mipmap/defaul"
+        android:id="@+id/see_bar"/>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0"
+        android:layout_width="30dp"
+        android:gravity="center"
+        android:id="@+id/see_tv_allTime"
+        android:textSize="10dp"
+        android:textColor="@android:color/black"
+        android:layout_height="30dp" />
+</LinearLayout>
